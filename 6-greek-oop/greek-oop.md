@@ -29,7 +29,7 @@ At the end, we will pray that those requirements will not change again. But they
 The problem here were not the requirements but the design: [why are we still asking instead of telling?](https://martinfowler.com/bliki/TellDontAsk.html)
 
 ### What is Tell, don’t ask (TDA) principle about?
->  Procedural code gets information then makes decisions. Object-oriented code tells objects to do things. 
+>  Procedural code gets information then makes decisions. Object-oriented code tells objects to do things.
  — Alec Sharp [“Smalltalk By Example”](https://www.amazon.com/Smalltalk-Example-Developers-Alec-Sharp/dp/0079130364) McGraw-Hill, 1997
 
 Making decisions outside objects violates their encapsulation so **instead of [asking objects about their state](https://www.martinfowler.com/bliki/GetterEradicator.html) and then making a decision, we should tell objects what to do.**
@@ -129,7 +129,7 @@ data class Wallet(
     ...
 )
 
-// when payday comes 
+// when payday comes
 
 class Paperboy {
     companion object {
@@ -150,7 +150,7 @@ class Paperboy {
 
 }
 
-The question here is: have you ever seen a paperboy 
+The question here is: have you ever seen a paperboy
 taking money directly from a neighbour's wallet?
 ```
 
@@ -220,8 +220,8 @@ class Paperboy(
 
 }
 
-Ok, now everything seems a little more complex but 
-now the paperboy is a good guy who ask for his/her 
+Ok, now everything seems a little more complex but
+now the paperboy is a good guy who ask for his/her
 money and doesn’t take anything from anyone’s wallet :)
 ```
 
@@ -237,4 +237,4 @@ money and doesn’t take anything from anyone’s wallet :)
 
 *****
 
-[External links 👀](https://gist.github.com/hrules6872/ad1a39005ce8eb16a665cc1e8812f8e7)
+[External links 👀](https://gist.github.com/hector6872/ad1a39005ce8eb16a665cc1e8812f8e7)
