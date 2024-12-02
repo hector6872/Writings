@@ -5,14 +5,14 @@
 
 ![](art/1.jpeg)
 
-Next month, my [GitHub](https://github.com/hrules6872) annual subscription will end and I don’t want to renew it in order to reduce the high number of online services I currently pay for.<br> **tl;dr: I’ll continue to use GitHub but not for private repositories.**
+Next month, my [GitHub](https://github.com/hector6872) annual subscription will end and I don’t want to renew it in order to reduce the high number of online services I currently pay for.<br> **tl;dr: I’ll continue to use GitHub but not for private repositories.**
 
-There are many alternatives out there, but I’ve decided to migrate my private repositories to [Bitbucket](https://bitbucket.org/hrules6872/)¹ (mainly because I’m used to using it at [work](https://lolamarket.com/)²). The biggest obstacle is that they don’t provide any tool to import all the repos at once (we have to do the chore one by one…) so **I’ve created a** [script](https://gist.github.com/hrules6872/af8655427e6ec7741a82516713d99ebf)**³** to fill that gap. **You’re welcome, Bitbucket** `:wink:`
+There are many alternatives out there, but I’ve decided to migrate my private repositories to [Bitbucket](https://bitbucket.org/hector6872/)¹ (mainly because I’m used to using it at [work](https://lolamarket.com/)²). The biggest obstacle is that they don’t provide any tool to import all the repos at once (we have to do the chore one by one…) so **I’ve created a** [script](https://gist.github.com/hector6872/af8655427e6ec7741a82516713d99ebf)**³** to fill that gap. **You’re welcome, Bitbucket** `:wink:`
 
 #### Moving checklist
 
 * [Python 2.7](http://lmgtfy.com/?q=install+python+2.7)
-* [FromGithubToBitbucket.py](https://gist.github.com/hrules6872/af8655427e6ec7741a82516713d99ebf) script (don’t forget to make it executable using `chmod +x`)
+* [FromGithubToBitbucket.py](https://gist.github.com/hector6872/af8655427e6ec7741a82516713d99ebf) script (don’t forget to make it executable using `chmod +x`)
 * [GitHub personal acces token](https://github.com/settings/tokens) (scopes needed: *repo*)
 * [Bitbucket app password](https://bitbucket.org/account) ➡️ Bitbucket settings ➡️ App passwords (permissions needed: *Repositories write*)
 * [Bitbucket OAuth consumer](https://bitbucket.org/account) ➡️ Bitbucket settings ➡️ OAuth ➡️ OAuth consumers (permissions needed: *Repositories write&admin*)
@@ -21,10 +21,10 @@ There are many alternatives out there, but I’ve decided to migrate my private 
 
 #### Moving day
 
-* [Fill in the credentials](https://gist.github.com/hrules6872/af8655427e6ec7741a82516713d99ebf#file-fromgithubtobitbucket-py-L4)
-* [Setup what kind of repo do we want to import](https://gist.github.com/hrules6872/af8655427e6ec7741a82516713d99ebf#file-fromgithubtobitbucket-py-L15)
+* [Fill in the credentials](https://gist.github.com/hector6872/af8655427e6ec7741a82516713d99ebf#file-fromgithubtobitbucket-py-L4)
+* [Setup what kind of repo do we want to import](https://gist.github.com/hector6872/af8655427e6ec7741a82516713d99ebf#file-fromgithubtobitbucket-py-L15)
 * **Run the script** and follow the instructions
-* [Dance](https://giphy.com/explore/victory-dance)! 
+* [Dance](https://giphy.com/explore/victory-dance)!
 
 *****
 
@@ -32,4 +32,4 @@ There are many alternatives out there, but I’ve decided to migrate my private 
 
 *****
 
-[External links 👀](https://gist.github.com/hrules6872/fb65d6ca42c719221dfa8989e6cfef98)
+[External links 👀](https://gist.github.com/hector6872/fb65d6ca42c719221dfa8989e6cfef98)
