@@ -1,4 +1,4 @@
-Index
+Articles
 ---
 
 1. [How good are Git Hooks?](1-git-hooks/git-hooks.md)
@@ -14,6 +14,13 @@ Index
 11. [Time is Money](11-time-is-money/time-is-money.md)
 12. [Why do you understand English but cannot speak fluently?](12-input-output/input-output.md)
 13. [The truth about Intermittent Fasting for Weight Loss](13-intermittent-fasting/intermittent-fasting.md)
+
+
+Notes
+---
+
+1. [How to Pull Request](https://gist.github.com/hector6872/2273a2db99d534ebb462939d8010001a)
+2. [On Pair Programming](https://gist.github.com/hector6872/c1866b41e4a9c34199727f07a10b6717)
 
 *****
 
