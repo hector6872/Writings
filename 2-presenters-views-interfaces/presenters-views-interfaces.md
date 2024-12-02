@@ -14,7 +14,7 @@ There are several posts about the **MVP**¹ pattern (or whatever fancy name some
 
 Time and again we are told that we must **avoid repetition and redundancy** because “the less code to maintain the better” but then we find ourselves typing almost the same interfaces over and over again an indefinite number of times.
 
-https://gist.github.com/hrules6872/143bed9e18aeed2195cd478106420c3e
+https://gist.github.com/hector6872/143bed9e18aeed2195cd478106420c3e
 
 > It’s almost pseudo-code, but I’m sure it’s not the first time you’ve seen something like that `:shrug:`
 
@@ -22,7 +22,7 @@ https://gist.github.com/hrules6872/143bed9e18aeed2195cd478106420c3e
 
 What can we do to follow the DRY principle mentioned above? **Applying the Interface Segregation Principle.** That’s it.
 
-https://gist.github.com/hrules6872/2db9d7cd1243cfb07792c7e7dfcb41b8
+https://gist.github.com/hector6872/2db9d7cd1243cfb07792c7e7dfcb41b8
 
 **What do you think?** From my point of view, among other benefits, it looks much cleaner, more refactor-friendly and certainly a better way to avoid monolithic interfaces with hundreds of methods.
 
@@ -30,7 +30,7 @@ https://gist.github.com/hrules6872/2db9d7cd1243cfb07792c7e7dfcb41b8
 
 Kotlin offers [Sealed classes](https://kotlinlang.org/docs/reference/sealed-classes.html) whose best description is: [Enums with super-powers](https://antonioleiva.com/sealed-classes-kotlin/). Using this kind of class we may be able to go [a little further](https://imgflip.com/i/29qsz7).
 
-https://gist.github.com/hrules6872/af1561469b7f13f51e19c55584bdcc6c
+https://gist.github.com/hector6872/af1561469b7f13f51e19c55584bdcc6c
 
 > Further information about these **Sealed Classes** is available [here](/5-sealed-class/sealed-class.md) `:trophy:`
 
@@ -46,4 +46,4 @@ We here at [Lolamarket](https://lolamarket.com/tienda) believe that our code loo
 
 *****
 
-[External links 👀](https://gist.github.com/hrules6872/00362163fe92e0d92e1e2d1d1fcacd84)
+[External links 👀](https://gist.github.com/hector6872/00362163fe92e0d92e1e2d1d1fcacd84)
