@@ -9,12 +9,12 @@ Among the many features that Kotlin brings to us to improve and facilitate our l
 
 **Sealed Classes are said to be "Enum Types on steroids"**: [they both are](https://en.wikipedia.org/wiki/Algebraic_data_type) restricted hierarchies, they both represent a set, they both are types, and they both can contain associated data, but… the first ones:
 
-* cannot be instantiated directly because they are `abstract` (and therefore, [they can have both abstract and non abstract methods and fields](https://gist.github.com/hrules6872/b69c89d5b070eb0eb2ecc809f921bd54)) 
+* cannot be instantiated directly because they are `abstract` (and therefore, [they can have both abstract and non abstract methods and fields](https://gist.github.com/hector6872/b69c89d5b070eb0eb2ecc809f921bd54))
 * can have subclasses and these can have multiples instances² which can contain
 their own state
 * **the type of such associated data may be different** (see the example below)
 
-https://gist.github.com/hrules6872/ba079eaf81278319f76fd4d3cc01f531 <span class="figcaption_hack">Tip: if a subclass doesn’t keep state, it can just be an **object**.</span>
+https://gist.github.com/hector6872/ba079eaf81278319f76fd4d3cc01f531 <span class="figcaption_hack">Tip: if a subclass doesn’t keep state, it can just be an **object**.</span>
 
 > Sealed Classes make our intentions clear (and their use also makes our code look cleaner)
 
@@ -28,9 +28,9 @@ https://gist.github.com/hrules6872/ba079eaf81278319f76fd4d3cc01f531 <span class=
 
 Going even further, thanks to the Kotlin’s **Smart Casting** feature, each subclass will be casted inside its `is` own clause, allowing us to access safely to its specific fields (saying goodbye to possible `ClassCastException` exceptions 🏆).
 
-https://gist.github.com/hrules6872/2ee045a49310772f14be2bfed428a242 <span class="figcaption_hack">Tip: when comparing an **object**, as there’s only one instance, we don’t need to check its type, so we can avoid the use of the **is** operator</span>
+https://gist.github.com/hector6872/2ee045a49310772f14be2bfed428a242 <span class="figcaption_hack">Tip: when comparing an **object**, as there’s only one instance, we don’t need to check its type, so we can avoid the use of the **is** operator</span>
 
-> **Using** `when` **as a statement doesn’t make it exhaustive.** Fortunately, [we can alter that behaviour](https://gist.github.com/hrules6872/99b007c498c919404f9961715ecbe5a7) by making use of another well-known Kotlin’s feature: [extensions](https://kotlinlang.org/docs/reference/extensions.html#extensions).
+> **Using** `when` **as a statement doesn’t make it exhaustive.** Fortunately, [we can alter that behaviour](https://gist.github.com/hector6872/99b007c498c919404f9961715ecbe5a7) by making use of another well-known Kotlin’s feature: [extensions](https://kotlinlang.org/docs/reference/extensions.html#extensions).
 
 #### Ok, it seems quite cool but: can we test those Sealed Classes?
 
@@ -48,6 +48,6 @@ The concept of the **Sealed Classes** is very simple but it’s the basis of a l
 
 [1] Yep, I’ve written a little about this [before](https://medium.com/@hector6872/presenters-and-views-meet-the-interface-segregation-principle-1cd6c98f46bb) (look for *“BONUS: Kotlin developers”* part)<br> [2] Remember that a single-element `Enum` type is one of the best ways to implement a [Singleton](http://www.drdobbs.com/jvm/creating-and-destroying-java-objects-par/208403883?pgno=3)
 
-***** 
+*****
 
-[External links 👀](https://gist.github.com/hrules6872/2a928d798055c78bfac4635679a04fed)
+[External links 👀](https://gist.github.com/hector6872/2a928d798055c78bfac4635679a04fed)
