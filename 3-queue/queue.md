@@ -20,9 +20,9 @@ A [queue](https://www.youtube.com/watch?v=IPxBKxU8GIQ) in a supermarket is **FIF
 
 In a `stack` we can only add and remove elements from one end (**LIFO**), in a `queue` we add elements to one end and remove them from the other (**FIFO**) and, joining those two worlds we have the `deque` (aka *“Double Ended Queue”*) where we can add and remove elements from both ends. **None of them allows random access to the elements.**
 
-https://gist.github.com/hrules6872/03246cebe37c1b61919543ab2b92791a
-https://gist.github.com/hrules6872/3349f3488dce861e2edf2af892299813
-https://gist.github.com/hrules6872/b263becd04c0f144643a0c0c7c874358
+https://gist.github.com/hector6872/03246cebe37c1b61919543ab2b92791a
+https://gist.github.com/hector6872/3349f3488dce861e2edf2af892299813
+https://gist.github.com/hector6872/b263becd04c0f144643a0c0c7c874358
 
 > In JAVA you *should* use `deque` to model a `stack` because the Stack class [is considered obsolete](https://keithwilliamstechblog.wordpress.com/2016/02/13/why-the-java-stack-class-is-bad/) (it extends the Vector class and inherits all its methods, making it possible to break the **LIFO** principle).
 
@@ -34,4 +34,4 @@ https://gist.github.com/hrules6872/b263becd04c0f144643a0c0c7c874358
 
 *****
 
-[External links 👀](https://gist.github.com/hrules6872/014457aa59de0d78abb0f35e028760ca)
+[External links 👀](https://gist.github.com/hector6872/014457aa59de0d78abb0f35e028760ca)
