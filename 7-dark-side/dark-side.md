@@ -47,4 +47,4 @@ There are neither slides (I splitted my tech talk into: a code review where my t
 
 *****
 
-[External links 👀](https://gist.github.com/hrules6872/25fcd2ab507f2293c8ab8720983afcc4)
+[External links 👀](https://gist.github.com/hector6872/25fcd2ab507f2293c8ab8720983afcc4)
