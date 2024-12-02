@@ -16,7 +16,7 @@
 
 A **New Year’s resolution** is a [tradition](https://www.history.com/news/the-history-of-new-years-resolutions) in which we make a bunch of promises¹ -on the last days of the year or so- to ourselves to do something in order to improve our behaviour or lifestyle in a good way during the year ahead (i.e. quit smoking, eat less junk food, lose weight, do some form of exercise and/or stop saying JS is a real programming language²).
 
-Even though some they could be just a [personal goal or challenge](https://github.com/hrules6872/ResolutionBoard) (i.e. travel solo), almost every promise we make of this kind usually is -to a greater or lesser degree- **a habit** (to either make or break it).
+Even though some they could be just a [personal goal or challenge](https://github.com/hector6872/ResolutionBoard) (i.e. travel solo), almost every promise we make of this kind usually is -to a greater or lesser degree- **a habit** (to either make or break it).
 
 ### What is a habit?
 
@@ -69,4 +69,4 @@ Above all, **don’t be a slave of your (bad) habits…** and [be like Bill](htt
 
 *****
 
-[External links 👀](https://gist.github.com/hrules6872/c285131c025569487e88df2e19d353fa)
+[External links 👀](https://gist.github.com/hector6872/c285131c025569487e88df2e19d353fa)
