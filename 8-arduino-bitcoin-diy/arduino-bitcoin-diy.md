@@ -1,5 +1,5 @@
 # Internet of Things — from zero to DIY Bitcoin Ticker
-## tl;dr [source code](https://github.com/hrules6872/DIY-Bitcoin-Ticker) & [gallery](https://imgur.com/gallery/Yuvjj67)
+## tl;dr [source code](https://github.com/hector6872/DIY-Bitcoin-Ticker) & [gallery](https://imgur.com/gallery/Yuvjj67)
 
 I’m sure almost everyone has heard at least once about **[Arduino](https://www.arduino.cc/)** and/or **[Raspberry Pi](https://www.raspberrypi.org/)** *low cost computers*. Both are used in countless ingenious **DIY** [electronic](https://create.arduino.cc/projecthub) [projects](https://www.raspberrypi.org/forums/viewforum.php?f=15&sid=95585e4b93a16bf8879382a5025493a4), on their own or by using one of the many expansion modules available, due to their low price and small credit-card size form factor (even smaller if we refer to [Raspberry Pi Zero](https://www.arrow.com/en/research-and-events/articles/raspberry-pi-3-vs-raspberry-pi-zero-w) model).
 
@@ -77,7 +77,7 @@ As we have seen before, our tiny and dirt cheap **NodeMCU has a built-in WIFI ch
 
 This time there is no example included showing us how to make the connection to our lovely Internet, so we will create a new script (*File* > *New*) containing the code below (as we can see the code is almost self-explanatory and doesn’t need any additional comment 🤞):
 
-{% gist https://gist.github.com/hrules6872/1aef38f33b416e7692a2fc3c58009aec#file-arduino-wifi-connect-ino %}
+{% gist https://gist.github.com/hector6872/1aef38f33b416e7692a2fc3c58009aec#file-arduino-wifi-connect-ino %}
 >  Check twice the ssid and/or password values before start to think the board is broken 😉
 
 ### Do you even fetch, bro?
@@ -93,7 +93,7 @@ Now, it is time to start coding our project 👏, a **Physical [Bitcoin](https:/
  4. Upload!
 >  There is a [wrapper around CoinMarketCap API](https://github.com/witnessmenow/arduino-coinmarketcap-api) available for NodeMCU but it seems pretty abandoned and old so we will use our own implementation.
 
- {% gist https://gist.github.com/hrules6872/b06097fe38e7d1e0ef1af3d3bdc37a38#file-arduino-api-request-ino %}
+ {% gist https://gist.github.com/hector6872/b06097fe38e7d1e0ef1af3d3bdc37a38#file-arduino-api-request-ino %}
 
 ## Rise & shine
 
@@ -106,12 +106,12 @@ Using the easiest (also the cheapest) option described above we must install the
 >  Example working for the ESP8266+OLED said above: `U8G2_SSD1306_128X64_NONAME_1_HW_I2C u8g2(*/* rotation=*/ *U8G2_R0, /* reset=*/ U8X8_PIN_NONE, /* clock=*/ 4, /* data=*/ 5);`<br>
 >  For more details on those parameters refer to [this](https://github.com/olikraus/u8g2/wiki/u8g2reference#carduino-example) example.
 
- {% gist https://gist.github.com/hrules6872/dc58455164266730bded9bf30614b315#file-arduino-display-ino %}
+ {% gist https://gist.github.com/hector6872/dc58455164266730bded9bf30614b315#file-arduino-display-ino %}
 
 ## Where do we go from here?
 >  “To infinity and beyond!” — [Buzz Lightyear](https://en.wikipedia.org/wiki/Buzz_Lightyear)
 
-As we have already seen in a couple of hours and a few lines of code we can have our own **[Bitcoin Ticker](https://github.com/hrules6872/DIY-Bitcoin-Ticker)** running. So based on this and reading in depth all the shared links we will able [to improve it](https://imgur.com/gallery/Yuvjj67) or [start a new project](https://www.esp8266.com/viewforum.php?f=11) totally different. **No limits! 🚀**
+As we have already seen in a couple of hours and a few lines of code we can have our own **[Bitcoin Ticker](https://github.com/hector6872/DIY-Bitcoin-Ticker)** running. So based on this and reading in depth all the shared links we will able [to improve it](https://imgur.com/gallery/Yuvjj67) or [start a new project](https://www.esp8266.com/viewforum.php?f=11) totally different. **No limits! 🚀**
 
 ### Thanks for reading. If you enjoyed this article, feel free to hit that clap button 👏 as much as you can to help others find it.
 
@@ -126,4 +126,4 @@ As we have already seen in a couple of hours and a few lines of code we can have
 
 *****
 
-[External links 👀](https://gist.github.com/hrules6872/e659c389bafcf8663e5c084d67b3cfeb)
+[External links 👀](https://gist.github.com/hector6872/e659c389bafcf8663e5c084d67b3cfeb)
